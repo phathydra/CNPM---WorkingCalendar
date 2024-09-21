@@ -1,0 +1,42 @@
+.container {width: 100%; margin: auto; font-size: 1.2em; height: 100%;}
+body{margin: 0; background: white; height: 100%;}
+header{height: 80px; background: white; position: relative; border-bottom: 1px solid #1A1110; display: flex;}
+main{
+  display: grid; grid-template-columns: auto 75%; min-height: 650px;
+}
+main > article{
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.main-grid-item-header{
+  margin: 1px;
+  border: 1px solid #1A1110;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.main-grid-item{
+  margin: 1px;
+  border: 1px solid #1A1110;
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: black;
+}
+main > aside{
+  display: grid;
+  margin: 20px;
+  height: 300px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  font-size: 0.6em;
+}
+
